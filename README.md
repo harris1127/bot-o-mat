@@ -1,3 +1,17 @@
+# Instructions to get BOT-O-MAT By Ryan Harris up and running
+1. Clone repo from git repository 
+2. Make sure all maven dependencies are installed (Maven clean and package)
+3. Create a run configuration using the spring boot run config
+4. Set main class as com.rharris.robot.BotApp
+5. JRE should be set at Java 8
+6. Once the application starts PLEASE TYPE a option in the command line (GUI or Command line)
+7. If GUI is selected please navigate to localhost:8080/home
+8. If Command line is selected please follow instructions in command prompt
+
+FYI - Swagger-ui endpoint is also available to use to see data--> localhost:8080/swagger-ui.html
+      Once all tasks are completed via the UI a surprise is waiting
+
+
 # BOT-O-MAT
 Use any language to complete this challenge. The implementation is up to you: it can be a command-line application or have a graphical interface.
 
